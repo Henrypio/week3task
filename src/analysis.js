@@ -191,7 +191,7 @@ async function analysis() {
           },
           0
         ),
-        noOfDriversWithMoreThanOneVehicle: countVehicle,
+        noOfDriversWithMoreThanOneVehicle: countVehicle -1,
         mostTripsByDriver: driverDetailtoReturn,
         highestEarningDriver: highestEarningDriverDetailToReturn,
       };
